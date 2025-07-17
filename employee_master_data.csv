@@ -1,0 +1,201 @@
+employee_id,first_name,last_name,gender,date_of_birth,hire_date,termination_date,employment_status,department,job_title,manager_id,location,work_email,tenure_months,is_manager,manager_name,employee_type
+1,David,Bryant,Male,1991-05-11,2021-06-22,2025-07-01,Terminated,Sales,Engineer,67.0,Austin,david.bryant@example.com,49,False,Brian Spencer,Part-Time
+2,Daniel,Hogan,Male,1967-04-24,2018-09-26,,Active,HR,HR Specialist,81.0,New York,daniel.hogan@example.com,82,False,Ronald Douglas,Full-Time
+3,Phillip,Wolf,Male,1963-05-28,2021-01-06,,Active,Engineering,Sales Associate,90.0,Austin,phillip.wolf@example.com,55,False,Alicia Kent,Full-Time
+4,Paul,Perez,Non-binary,1997-06-25,2020-06-16,,Active,HR,Sales Associate,157.0,New York,paul.perez@example.com,61,False,David Franklin,Full-Time
+5,Paul,Leon,Female,1977-07-10,2019-06-26,2021-03-06,Terminated,Sales,Engineer,40.0,Austin,paul.leon@example.com,20,False,Wanda Warren,Full-Time
+6,Kimberly,Spencer,Female,1960-01-22,2021-11-08,,Active,HR,Manager,126.0,Chicago,kimberly.spencer@example.com,44,False,Robert Smith,Part-Time
+7,Justin,Roberts,Male,1971-10-08,2018-04-01,2020-01-28,Terminated,Marketing,HR Specialist,68.0,New York,justin.roberts@example.com,22,False,Michael Pierce,Full-Time
+8,Caroline,Avery,Non-binary,1989-03-12,2018-06-04,,Active,HR,Sales Associate,39.0,San Francisco,caroline.avery@example.com,86,False,Steven Rosales,Part-Time
+9,Vanessa,Ryan,Female,1970-01-30,2018-09-19,2021-11-08,Terminated,Engineering,Engineer,11.0,New York,vanessa.ryan@example.com,38,False,Jennifer Lynch,Part-Time
+10,Kim,Tanner,Non-binary,1995-08-03,2022-05-17,,Active,Engineering,Engineer,159.0,San Francisco,kim.tanner@example.com,38,False,Frank Rodgers,Full-Time
+11,Paul,Mills,Female,1980-11-18,2022-12-11,,Active,Engineering,Sales Associate,86.0,San Francisco,paul.mills@example.com,31,False,Vicki Alvarez,Contractor
+12,Matthew,Wright,Female,1959-09-17,2018-08-10,,Active,Engineering,Engineer,,Chicago,matthew.wright@example.com,84,True,,Part-Time
+13,Sean,Krause,Male,1967-03-05,2019-09-18,,Active,Engineering,HR Specialist,58.0,Austin,sean.krause@example.com,70,False,Ronald Harrison,Part-Time
+14,Brittany,Harris,Female,1965-05-14,2022-11-06,2025-07-04,Terminated,Sales,Manager,131.0,New York,brittany.harris@example.com,32,False,Kathy Daniel,Part-Time
+15,Steven,Mccann,Male,1997-06-13,2019-01-01,,Active,Marketing,Sales Associate,10.0,Austin,steven.mccann@example.com,79,False,Mr. Matthew Welch,Part-Time
+16,Chris,Bell,Non-binary,1990-09-06,2021-05-26,,Active,Engineering,Sales Associate,,New York,chris.bell@example.com,50,True,,Contractor
+17,Brandy,Soto,Non-binary,2002-11-07,2020-06-12,2022-08-24,Terminated,Sales,Sales Associate,18.0,New York,brandy.soto@example.com,26,False,James Gordon,Contractor
+18,Caitlyn,Mckinney,Female,2002-02-27,2023-01-18,,Active,Marketing,Sales Associate,105.0,San Francisco,caitlyn.mckinney@example.com,30,False,Vanessa Richardson,Full-Time
+19,Amanda,Benitez,Male,1987-11-05,2020-05-11,,Active,Sales,HR Specialist,192.0,New York,amanda.benitez@example.com,63,False,Michael Rose,Part-Time
+20,Joshua,Dalton,Non-binary,1995-06-15,2019-08-11,,Active,Sales,HR Specialist,156.0,Chicago,joshua.dalton@example.com,72,False,Kelsey Zimmerman,Part-Time
+21,Jodi,Owens,Male,1976-09-11,2021-10-15,,Active,HR,Sales Associate,189.0,Austin,jodi.owens@example.com,45,False,Katherine Reynolds,Full-Time
+22,Theresa,Walker,Male,1985-08-01,2022-08-04,,Active,Engineering,Engineer,80.0,New York,theresa.walker@example.com,35,False,Joseph Sanders,Full-Time
+23,Angela,Wright,Male,1978-04-03,2019-05-17,,Active,Marketing,HR Specialist,197.0,San Francisco,angela.wright@example.com,75,False,Christina Harrison,Contractor
+24,Sara,Jenkins,Non-binary,1977-03-15,2021-11-27,,Active,HR,Manager,38.0,Chicago,sara.jenkins@example.com,44,False,Christopher Forbes,Full-Time
+25,Brandon,Delgado,Male,1980-12-06,2018-12-27,,Active,Engineering,Manager,119.0,Chicago,brandon.delgado@example.com,79,False,Maria Adams,Full-Time
+26,Christopher,Carroll,Non-binary,1982-09-25,2022-06-30,,Active,Sales,HR Specialist,144.0,Chicago,christopher.carroll@example.com,37,False,Alison Thomas,Contractor
+27,Seth,Obrien,Female,1961-05-29,2020-07-02,,Active,Sales,Engineer,122.0,Austin,seth.obrien@example.com,61,False,Laura Huffman,Contractor
+28,John,Gonzalez,Non-binary,2001-11-07,2020-09-19,,Active,Sales,Engineer,20.0,Austin,john.gonzalez@example.com,58,False,Brandi Ho,Part-Time
+29,Kelly,Hanson,Male,1990-06-17,2019-10-17,,Active,Engineering,HR Specialist,,San Francisco,kelly.hanson@example.com,69,True,,Contractor
+30,Virginia,Richardson,Female,1999-07-20,2019-03-15,2022-07-31,Terminated,HR,Engineer,120.0,Chicago,virginia.richardson@example.com,41,False,Christopher Warner,Part-Time
+31,Christina,Miller,Non-binary,2002-09-15,2023-01-28,,Active,Marketing,HR Specialist,6.0,New York,christina.miller@example.com,29,False,Sonia Schultz,Part-Time
+32,Paula,Hopkins,Non-binary,1993-04-27,2019-09-04,,Active,Engineering,HR Specialist,108.0,San Francisco,paula.hopkins@example.com,71,False,Gabrielle Gallegos,Part-Time
+33,Brittany,Hines,Non-binary,1975-08-03,2020-06-11,,Active,Marketing,Engineer,172.0,Chicago,brittany.hines@example.com,61,False,Amanda Webb,Full-Time
+34,Jacob,Wagner,Non-binary,1981-04-29,2021-06-28,,Active,HR,Manager,152.0,Chicago,jacob.wagner@example.com,49,False,Megan Horne,Full-Time
+35,Vincent,Cain,Female,1988-01-18,2022-11-11,,Active,Sales,Engineer,,Chicago,vincent.cain@example.com,32,True,,Part-Time
+36,Cynthia,Petty,Female,1976-03-31,2019-11-23,,Active,Sales,Manager,193.0,Chicago,cynthia.petty@example.com,68,False,Sarah Church,Full-Time
+37,Michael,Walker,Male,1989-03-26,2022-03-15,,Active,HR,Manager,90.0,New York,michael.walker@example.com,40,False,Luke Oliver,Full-Time
+38,Kristi,Massey,Male,1983-04-27,2019-02-13,,Active,Marketing,Manager,62.0,San Francisco,kristi.massey@example.com,78,False,Christopher Jackson,Part-Time
+39,Amy,Carpenter,Non-binary,1979-12-27,2021-12-03,,Active,HR,Engineer,156.0,Austin,amy.carpenter@example.com,43,False,Noah Durham,Full-Time
+40,Chris,Williams,Female,1967-05-05,2021-03-31,2024-02-02,Terminated,Engineering,Manager,97.0,San Francisco,chris.williams@example.com,34,False,Lindsay Davidson,Full-Time
+41,Joseph,Young,Male,1998-08-25,2021-11-28,,Active,HR,Sales Associate,154.0,Chicago,joseph.young@example.com,44,False,Jennifer Henson,Contractor
+42,Abigail,Lee,Female,1974-01-20,2020-01-29,2023-01-31,Terminated,Marketing,Manager,,Chicago,abigail.lee@example.com,36,True,,Part-Time
+43,Anthony,Garcia,Female,1965-08-06,2021-07-25,,Active,Engineering,Sales Associate,40.0,Chicago,anthony.garcia@example.com,48,False,Melissa Martin,Part-Time
+44,Victoria,Lester,Male,1991-04-13,2020-06-11,,Active,HR,Sales Associate,83.0,Chicago,victoria.lester@example.com,61,False,Daniel Lee,Full-Time
+45,Adam,Jones,Female,1969-07-30,2022-03-17,,Active,HR,HR Specialist,98.0,Austin,adam.jones@example.com,40,False,Phyllis Mccullough,Full-Time
+46,Carlos,Lewis,Female,2000-11-01,2020-09-25,,Active,Sales,Manager,88.0,San Francisco,carlos.lewis@example.com,58,False,Matthew Campbell,Full-Time
+47,Kristen,Vasquez,Male,1992-04-22,2019-05-10,,Active,Marketing,HR Specialist,195.0,Chicago,kristen.vasquez@example.com,75,False,Lisa Weeks,Full-Time
+48,Don,Reynolds,Female,1989-12-03,2018-07-10,,Active,Sales,HR Specialist,63.0,Austin,don.reynolds@example.com,85,False,Donald Gutierrez,Part-Time
+49,David,Armstrong,Female,1990-05-02,2022-03-08,,Active,Sales,Sales Associate,117.0,San Francisco,david.armstrong@example.com,40,False,Dr. Samuel Reyes II,Full-Time
+50,Warren,Doyle,Non-binary,1967-07-13,2022-01-17,2023-10-23,Terminated,Engineering,Engineer,196.0,San Francisco,warren.doyle@example.com,21,False,Erica Hill,Contractor
+51,Tracey,Nixon,Non-binary,1973-06-25,2020-09-18,,Active,Sales,Manager,195.0,San Francisco,tracey.nixon@example.com,58,False,Derrick Reed,Part-Time
+52,Melvin,Bautista,Non-binary,1982-04-03,2019-04-11,,Active,Engineering,Sales Associate,182.0,New York,melvin.bautista@example.com,76,False,Carl Foster,Full-Time
+53,Timothy,Patterson,Female,1987-07-02,2021-02-07,,Active,HR,Manager,164.0,Austin,timothy.patterson@example.com,53,False,Stephanie Golden,Part-Time
+54,Susan,Gomez,Female,1988-10-05,2020-09-07,,Active,Marketing,Manager,14.0,New York,susan.gomez@example.com,59,False,Kimberly Mays,Part-Time
+55,Alisha,Nguyen,Female,1981-07-08,2020-10-04,2022-02-25,Terminated,HR,Engineer,145.0,New York,alisha.nguyen@example.com,16,False,William Jackson,Contractor
+56,Dana,Hernandez,Male,2001-03-23,2022-04-15,,Active,Marketing,HR Specialist,159.0,Chicago,dana.hernandez@example.com,39,False,Dennis Robertson,Part-Time
+57,Michelle,Clark,Non-binary,1972-06-15,2022-10-28,,Active,HR,Manager,146.0,San Francisco,michelle.clark@example.com,33,False,John Chavez,Contractor
+58,Francisco,Thompson,Male,1962-05-14,2019-03-09,,Active,Engineering,Manager,,San Francisco,francisco.thompson@example.com,77,True,,Full-Time
+59,Edwin,Santos,Male,1991-06-08,2020-04-16,,Active,Engineering,Sales Associate,75.0,Austin,edwin.santos@example.com,63,False,Valerie Marshall,Contractor
+60,Lauren,Richardson,Non-binary,1983-02-15,2022-10-27,,Active,Engineering,HR Specialist,68.0,New York,lauren.richardson@example.com,33,False,Heather Rodriguez,Contractor
+61,Theresa,Wilson,Male,1970-03-15,2019-04-06,,Active,HR,Engineer,37.0,Austin,theresa.wilson@example.com,76,False,Jade Noble,Contractor
+62,Joshua,Morris,Male,1981-04-19,2022-03-14,,Active,Marketing,Sales Associate,113.0,Chicago,joshua.morris@example.com,40,False,Steven Jones,Part-Time
+63,Amy,Chapman,Male,1993-06-11,2020-10-21,,Active,Marketing,Sales Associate,154.0,Austin,amy.chapman@example.com,57,False,Wendy Cook,Full-Time
+64,Darius,Floyd,Non-binary,1996-11-06,2018-07-07,,Active,HR,Sales Associate,148.0,New York,darius.floyd@example.com,85,False,Jennifer Ritter,Full-Time
+65,Jacob,Davis,Male,1966-03-02,2020-08-21,,Active,Marketing,HR Specialist,72.0,New York,jacob.davis@example.com,59,False,Margaret Rivera,Part-Time
+66,Jerome,West,Male,1970-07-27,2019-12-14,,Active,Sales,HR Specialist,27.0,Chicago,jerome.west@example.com,67,False,Matthew Barnes,Part-Time
+67,Kelli,Sparks,Male,1965-12-17,2021-09-18,,Active,Marketing,Manager,141.0,Austin,kelli.sparks@example.com,46,False,Nicole Gonzales,Part-Time
+68,Timothy,Valdez,Non-binary,1994-04-17,2019-10-25,2023-03-05,Terminated,Marketing,HR Specialist,1.0,New York,timothy.valdez@example.com,40,False,Tyler Fox,Full-Time
+69,Brenda,Herrera,Female,1992-09-23,2020-11-27,,Active,HR,Engineer,161.0,Austin,brenda.herrera@example.com,56,False,Jacob Graves,Contractor
+70,Evan,Burnett,Female,1992-03-03,2018-09-26,,Active,HR,Manager,179.0,San Francisco,evan.burnett@example.com,82,False,Brenda Schmidt,Contractor
+71,Kevin,Jones,Female,1974-03-30,2018-11-21,,Active,HR,Engineer,,New York,kevin.jones@example.com,80,True,,Part-Time
+72,Olivia,Marquez,Female,1996-04-19,2023-04-24,2025-04-08,Terminated,Sales,HR Specialist,184.0,Chicago,olivia.marquez@example.com,23,False,Justin Coleman,Part-Time
+73,Amber,Lee,Male,1995-01-11,2019-05-15,,Active,Engineering,Manager,,Austin,amber.lee@example.com,75,True,,Part-Time
+74,Christopher,Watson,Female,1973-12-28,2019-11-28,,Active,Sales,HR Specialist,1.0,San Francisco,christopher.watson@example.com,68,False,Christopher Mccormick,Part-Time
+75,Alison,Grant,Non-binary,1997-08-05,2021-01-08,,Active,Marketing,HR Specialist,196.0,Austin,alison.grant@example.com,54,False,Leonard Nelson,Full-Time
+76,Rachel,Vang,Female,1963-01-03,2021-11-29,,Active,HR,Sales Associate,199.0,Chicago,rachel.vang@example.com,44,False,Michelle Landry,Contractor
+77,Jon,Alvarez,Non-binary,1985-11-10,2023-02-14,,Active,Engineering,HR Specialist,170.0,New York,jon.alvarez@example.com,29,False,Daniel Farrell,Full-Time
+78,Jason,Garcia,Female,1985-10-19,2020-10-25,,Active,HR,HR Specialist,26.0,New York,jason.garcia@example.com,57,False,Jodi Rocha,Contractor
+79,Rachel,Watson,Male,1977-12-29,2018-10-23,,Active,Marketing,Sales Associate,40.0,Austin,rachel.watson@example.com,81,False,Erica Taylor,Contractor
+80,Martha,Kirk,Female,1993-01-25,2021-11-19,,Active,Marketing,Sales Associate,,Chicago,martha.kirk@example.com,44,True,,Contractor
+81,Patricia,Jenkins,Female,1971-01-07,2018-03-15,,Active,Engineering,Manager,176.0,Chicago,patricia.jenkins@example.com,89,False,Richard White,Full-Time
+82,Veronica,Osborne,Male,1969-11-08,2022-04-07,,Active,Sales,Manager,114.0,New York,veronica.osborne@example.com,39,False,Emily Brown,Part-Time
+83,Seth,Haney,Male,1965-03-13,2022-06-19,2025-07-27,Terminated,Marketing,Engineer,38.0,San Francisco,seth.haney@example.com,37,False,Louis Wood,Full-Time
+84,Matthew,Garner,Male,1964-07-08,2018-06-11,,Active,Marketing,Engineer,175.0,San Francisco,matthew.garner@example.com,86,False,Samuel Logan,Part-Time
+85,Daniel,Harper,Female,1968-11-04,2021-07-30,,Active,Sales,Engineer,3.0,New York,daniel.harper@example.com,48,False,Jeffrey Guerrero,Part-Time
+86,Andrea,Lopez,Female,1995-11-14,2023-04-20,,Active,Sales,HR Specialist,164.0,Austin,andrea.lopez@example.com,27,False,Michael Duran,Full-Time
+87,Katrina,Wiley,Female,1986-12-13,2020-02-27,,Active,Sales,Sales Associate,,Austin,katrina.wiley@example.com,65,True,,Full-Time
+88,Craig,Freeman,Non-binary,1988-02-04,2022-08-27,,Active,HR,HR Specialist,145.0,Austin,craig.freeman@example.com,35,False,Rachel Jones,Full-Time
+89,Jason,Grimes,Non-binary,1982-12-19,2021-05-28,,Active,Sales,Engineer,49.0,New York,jason.grimes@example.com,50,False,Brandon Olsen,Contractor
+90,Jeremy,Smith,Female,1992-08-30,2021-08-16,2025-03-10,Terminated,Engineering,Manager,,Austin,jeremy.smith@example.com,43,True,,Part-Time
+91,Karen,Rogers,Female,1965-05-20,2022-03-11,,Active,Sales,Engineer,139.0,Austin,karen.rogers@example.com,40,False,John Lewis,Part-Time
+92,Amy,Todd,Male,1975-08-29,2023-06-05,,Active,Marketing,Manager,87.0,San Francisco,amy.todd@example.com,25,False,Rodney Contreras,Full-Time
+93,Andrea,Simmons,Non-binary,2001-06-07,2022-10-28,,Active,Sales,Manager,102.0,Chicago,andrea.simmons@example.com,33,False,Christopher Perez,Full-Time
+94,Shannon,Wiley,Non-binary,1985-09-13,2019-06-26,,Active,Sales,HR Specialist,173.0,Austin,shannon.wiley@example.com,73,False,Bruce Jackson,Full-Time
+95,Melissa,Baldwin,Non-binary,1977-07-28,2021-10-14,,Active,Sales,Engineer,,New York,melissa.baldwin@example.com,45,True,,Contractor
+96,Sandra,Little,Female,1994-12-27,2022-08-15,,Active,HR,Engineer,167.0,New York,sandra.little@example.com,35,False,Mrs. Stephanie Hernandez,Full-Time
+97,Tim,Howe,Male,1997-12-30,2019-09-16,,Active,Engineering,HR Specialist,,Chicago,tim.howe@example.com,70,True,,Part-Time
+98,Rodney,Ford,Female,1964-02-04,2021-10-05,,Active,Engineering,HR Specialist,139.0,New York,rodney.ford@example.com,45,False,Alan Newman,Part-Time
+99,Jake,Pittman,Non-binary,1981-08-28,2021-06-14,,Active,Sales,Engineer,9.0,Chicago,jake.pittman@example.com,49,False,David Cook,Part-Time
+100,Victor,Hunt,Female,1996-08-24,2023-05-01,,Active,Sales,Manager,176.0,Chicago,victor.hunt@example.com,26,False,Shawn Baker,Part-Time
+101,Lisa,Bailey,Male,1997-02-14,2019-01-24,,Active,Engineering,Manager,117.0,New York,lisa.bailey@example.com,78,False,Mrs. Kathy Miller MD,Part-Time
+102,Michael,Harris,Male,1995-06-24,2019-05-14,,Active,Engineering,Engineer,53.0,San Francisco,michael.harris@example.com,75,False,Roberto Barber,Part-Time
+103,Blake,Miller,Male,1970-09-12,2022-05-05,2023-06-14,Terminated,Sales,Engineer,38.0,New York,blake.miller@example.com,13,False,Heather Carter,Contractor
+104,Carla,Shea,Non-binary,1993-04-14,2022-11-10,2024-01-14,Terminated,Sales,Manager,61.0,San Francisco,carla.shea@example.com,14,False,Cynthia Brown,Part-Time
+105,Chad,Scott,Male,1986-03-07,2018-04-18,2021-10-01,Terminated,Marketing,HR Specialist,191.0,Austin,chad.scott@example.com,42,False,Tammy Williams,Contractor
+106,Steven,Williamson,Male,1980-08-05,2021-04-30,2025-03-31,Terminated,Sales,HR Specialist,158.0,New York,steven.williamson@example.com,47,False,Amy Lara,Full-Time
+107,John,Ryan,Female,1966-02-06,2020-09-07,,Active,Marketing,Manager,28.0,New York,john.ryan@example.com,59,False,Rebecca Ramos,Part-Time
+108,Brenda,Hunter,Non-binary,1994-06-03,2021-05-30,2023-03-19,Terminated,Sales,HR Specialist,163.0,Austin,brenda.hunter@example.com,21,False,Jennifer Hall,Part-Time
+109,Mark,Santos,Non-binary,1990-07-15,2020-11-01,,Active,HR,Engineer,,Chicago,mark.santos@example.com,57,True,,Part-Time
+110,Noah,Davis,Female,1996-02-24,2022-12-24,,Active,Marketing,Manager,117.0,Austin,noah.davis@example.com,31,False,Laura Foster,Part-Time
+111,Travis,Richards,Non-binary,1971-06-25,2019-10-03,,Active,Marketing,Manager,40.0,New York,travis.richards@example.com,70,False,Paul Nelson,Full-Time
+112,Andre,Vasquez,Male,2000-06-13,2018-07-10,,Active,HR,Sales Associate,96.0,New York,andre.vasquez@example.com,85,False,Karen Evans,Part-Time
+113,Leslie,Mcdowell,Non-binary,1990-01-05,2019-12-26,,Active,HR,Sales Associate,109.0,Austin,leslie.mcdowell@example.com,67,False,William Crawford,Part-Time
+114,Mary,Thomas,Female,1968-10-14,2018-08-01,,Active,Engineering,Manager,169.0,Austin,mary.thomas@example.com,84,False,Dr. Melissa Lambert,Contractor
+115,Valerie,Steele,Non-binary,1990-08-31,2020-01-23,2022-09-19,Terminated,HR,Sales Associate,110.0,New York,valerie.steele@example.com,32,False,Colleen Turner,Full-Time
+116,Alejandra,Sanders,Female,1962-03-27,2019-07-14,,Active,HR,Engineer,87.0,San Francisco,alejandra.sanders@example.com,73,False,Sandra Schwartz,Contractor
+117,Julie,Simmons,Non-binary,1997-12-06,2021-09-08,,Active,HR,Manager,,San Francisco,julie.simmons@example.com,46,True,,Part-Time
+118,Laura,Arnold,Non-binary,1995-04-12,2020-05-09,,Active,Sales,Manager,80.0,New York,laura.arnold@example.com,63,False,Lawrence Phelps,Full-Time
+119,John,Munoz,Male,1988-10-05,2018-11-19,,Active,Sales,HR Specialist,,Chicago,john.munoz@example.com,80,True,,Part-Time
+120,Melissa,Horn,Non-binary,1995-11-05,2021-05-28,,Active,HR,Sales Associate,194.0,Chicago,melissa.horn@example.com,50,False,Paige Clark,Full-Time
+121,Amber,Jones,Non-binary,1996-02-12,2019-08-04,,Active,Sales,Manager,135.0,San Francisco,amber.jones@example.com,72,False,Michael Melton,Part-Time
+122,Dustin,Boyd,Male,1967-11-28,2021-05-12,2023-08-08,Terminated,Sales,Sales Associate,55.0,Austin,dustin.boyd@example.com,27,False,Carol Smith,Full-Time
+123,Ashlee,Brown,Female,1962-02-15,2018-01-16,,Active,Engineering,Sales Associate,34.0,New York,ashlee.brown@example.com,91,False,Robert Miller,Part-Time
+124,Nathan,Hudson,Male,1996-07-06,2022-10-31,,Active,Sales,HR Specialist,118.0,Chicago,nathan.hudson@example.com,32,False,Christina Holmes,Contractor
+125,Zachary,Lawrence,Male,1987-09-15,2021-08-04,,Active,Sales,Engineer,,Chicago,zachary.lawrence@example.com,48,True,,Contractor
+126,Kelsey,Robinson,Male,1961-06-17,2023-02-27,,Active,Marketing,HR Specialist,28.0,New York,kelsey.robinson@example.com,28,False,Kayla Vega,Part-Time
+127,Michael,Figueroa,Male,1987-11-04,2022-11-18,,Active,HR,Manager,86.0,San Francisco,michael.figueroa@example.com,32,False,Dr. Michael Clayton,Part-Time
+128,Jacob,Mitchell,Male,1977-06-28,2019-12-21,,Active,HR,Engineer,38.0,Austin,jacob.mitchell@example.com,67,False,Allen Anthony,Full-Time
+129,Jane,Harrison,Male,1978-04-02,2018-12-22,,Active,Engineering,HR Specialist,168.0,Chicago,jane.harrison@example.com,79,False,Cassandra Hendricks,Contractor
+130,Anita,Smith,Non-binary,1965-08-28,2022-04-06,,Active,Sales,Sales Associate,145.0,San Francisco,anita.smith@example.com,39,False,Andrew Gibson,Part-Time
+131,Marcus,Coleman,Non-binary,1995-04-04,2018-05-20,,Active,HR,Sales Associate,71.0,New York,marcus.coleman@example.com,87,False,Carolyn Collins,Part-Time
+132,Leslie,Romero,Female,1975-02-13,2020-08-03,,Active,HR,Manager,,Chicago,leslie.romero@example.com,60,True,,Part-Time
+133,Alexander,Morrow,Female,1978-12-14,2021-04-03,,Active,Engineering,Sales Associate,11.0,Chicago,alexander.morrow@example.com,52,False,Elizabeth Matthews,Contractor
+134,Cassandra,Potter,Non-binary,1961-01-29,2018-11-05,,Active,HR,Engineer,88.0,New York,cassandra.potter@example.com,81,False,Heather Dodson,Full-Time
+135,Susan,Jenkins,Non-binary,1993-08-04,2021-12-20,,Active,Engineering,Sales Associate,134.0,Austin,susan.jenkins@example.com,43,False,Dylan Coleman,Part-Time
+136,James,Weeks,Male,1964-07-29,2020-03-04,,Active,Sales,Manager,154.0,Austin,james.weeks@example.com,65,False,Taylor Shepherd DDS,Full-Time
+137,James,Howard,Non-binary,1981-01-15,2021-02-16,,Active,Engineering,Sales Associate,186.0,New York,james.howard@example.com,53,False,William Cochran,Contractor
+138,Suzanne,Ramirez,Non-binary,1971-03-03,2021-09-21,2024-10-11,Terminated,Marketing,Engineer,168.0,New York,suzanne.ramirez@example.com,37,False,Jessica Stone,Part-Time
+139,Regina,Jackson,Non-binary,1966-01-27,2021-02-18,,Active,HR,HR Specialist,33.0,Austin,regina.jackson@example.com,53,False,John Chase,Full-Time
+140,Lisa,Moody,Female,1976-10-03,2020-01-13,,Active,Engineering,Engineer,88.0,San Francisco,lisa.moody@example.com,66,False,Michelle Fritz,Full-Time
+141,Daniel,Wolf,Non-binary,2001-05-09,2018-06-08,,Active,HR,Sales Associate,130.0,San Francisco,daniel.wolf@example.com,86,False,Kevin Fletcher,Contractor
+142,Donald,Howard,Non-binary,1971-02-18,2020-02-11,2022-03-22,Terminated,Engineering,HR Specialist,198.0,New York,donald.howard@example.com,25,False,Cynthia Pena,Part-Time
+143,Jessica,Bailey,Non-binary,2001-07-19,2020-01-17,,Active,Sales,HR Specialist,114.0,San Francisco,jessica.bailey@example.com,66,False,Courtney Smith,Contractor
+144,Tyler,Harris,Male,1966-07-22,2019-05-05,,Active,Sales,HR Specialist,121.0,Chicago,tyler.harris@example.com,75,False,Alisha Arias,Part-Time
+145,Jamie,Powell,Male,1967-03-25,2022-05-13,,Active,Engineering,Sales Associate,42.0,New York,jamie.powell@example.com,38,False,Mark Avila,Contractor
+146,Rachael,Morgan,Non-binary,1991-08-06,2020-09-11,,Active,HR,Sales Associate,27.0,New York,rachael.morgan@example.com,58,False,Robert Evans,Full-Time
+147,Nancy,Whitney,Male,1961-08-18,2019-07-13,,Active,Engineering,HR Specialist,112.0,Austin,nancy.whitney@example.com,73,False,Kelly Garcia,Full-Time
+148,Patrick,Arnold,Male,2002-07-14,2020-04-29,2024-03-27,Terminated,Sales,Engineer,99.0,New York,patrick.arnold@example.com,47,False,Mark Mosley,Part-Time
+149,Ann,Hall,Male,1987-08-05,2023-03-22,2026-03-12,Terminated,Sales,HR Specialist,36.0,San Francisco,ann.hall@example.com,36,False,Christine Miles,Contractor
+150,Curtis,Bullock,Male,1976-11-22,2020-08-18,,Active,HR,Sales Associate,,San Francisco,curtis.bullock@example.com,59,True,,Full-Time
+151,Amanda,Webb,Male,2000-08-13,2021-01-28,,Active,Sales,Engineer,109.0,Austin,amanda.webb@example.com,54,False,Todd Hart,Full-Time
+152,Jennifer,Turner,Female,1962-06-13,2018-04-08,,Active,HR,Manager,160.0,Chicago,jennifer.turner@example.com,88,False,Heather Rangel,Contractor
+153,Nancy,Bennett,Male,1980-10-01,2021-01-02,2024-12-27,Terminated,Sales,HR Specialist,184.0,New York,nancy.bennett@example.com,48,False,Louis Carroll,Contractor
+154,Jessica,Jacobson,Non-binary,1987-09-01,2019-12-24,,Active,HR,Sales Associate,171.0,New York,jessica.jacobson@example.com,67,False,Angela Knapp,Contractor
+155,Christian,Calhoun,Male,1996-07-22,2021-01-19,,Active,Marketing,HR Specialist,142.0,New York,christian.calhoun@example.com,54,False,Mrs. Stephanie Flores,Contractor
+156,Matthew,Gray,Female,1980-07-02,2020-03-03,,Active,HR,Sales Associate,5.0,San Francisco,matthew.gray@example.com,65,False,Bonnie Cruz,Contractor
+157,Jane,Henry,Female,1988-09-09,2021-09-07,,Active,Engineering,Manager,189.0,Austin,jane.henry@example.com,46,False,Jessica Pollard,Contractor
+158,Victoria,Contreras,Non-binary,1972-07-24,2019-11-25,,Active,Marketing,HR Specialist,200.0,San Francisco,victoria.contreras@example.com,68,False,Jennifer Grant,Full-Time
+159,James,Lowery,Female,1983-08-16,2018-05-10,,Active,Engineering,Manager,10.0,San Francisco,james.lowery@example.com,87,False,Susan Griffin,Full-Time
+160,Jackie,Delgado,Female,1966-06-28,2019-10-09,,Active,Sales,Manager,140.0,San Francisco,jackie.delgado@example.com,70,False,Christopher Atkins,Part-Time
+161,Katherine,Stafford,Non-binary,1977-10-08,2020-01-02,,Active,Sales,Sales Associate,,New York,katherine.stafford@example.com,67,True,,Part-Time
+162,Christopher,Haynes,Female,1970-04-09,2020-06-13,,Active,Engineering,HR Specialist,99.0,Chicago,christopher.haynes@example.com,61,False,Gary Williams,Part-Time
+163,Karen,Mcintyre,Non-binary,1962-12-16,2023-03-08,,Active,Marketing,Manager,22.0,Chicago,karen.mcintyre@example.com,28,False,Alexander Moody,Contractor
+164,Rachel,Martin,Female,1984-01-19,2022-08-12,2025-05-09,Terminated,Sales,Sales Associate,21.0,Chicago,rachel.martin@example.com,33,False,Crystal Campbell,Contractor
+165,Pamela,Miller,Female,1973-05-15,2022-01-09,,Active,HR,Sales Associate,90.0,Chicago,pamela.miller@example.com,42,False,Jason Mullins,Part-Time
+166,John,Pollard,Non-binary,1961-07-10,2021-08-02,,Active,Marketing,Sales Associate,20.0,San Francisco,john.pollard@example.com,48,False,Erica Jimenez,Full-Time
+167,Daniel,Coleman,Male,1961-01-21,2018-10-20,,Active,Engineering,Manager,113.0,San Francisco,daniel.coleman@example.com,81,False,Sally Wright,Contractor
+168,Lauren,Smith,Non-binary,1966-10-24,2020-01-21,,Active,Engineering,HR Specialist,9.0,Austin,lauren.smith@example.com,66,False,Richard Carlson,Part-Time
+169,Stacie,Raymond,Female,1973-06-19,2020-06-28,,Active,Marketing,Sales Associate,136.0,Austin,stacie.raymond@example.com,61,False,Janice Ramirez,Full-Time
+170,Michael,Morgan,Non-binary,2002-02-13,2023-05-22,2025-07-11,Terminated,HR,Sales Associate,100.0,Austin,michael.morgan@example.com,26,False,Michael Thomas,Contractor
+171,Matthew,Miller,Female,1991-01-18,2020-07-02,,Active,Engineering,Manager,178.0,San Francisco,matthew.miller@example.com,61,False,Heather Adams,Full-Time
+172,Hayley,Abbott,Female,1999-05-24,2020-07-14,2024-02-15,Terminated,Sales,Manager,175.0,Austin,hayley.abbott@example.com,43,False,Kristy Ramirez,Part-Time
+173,Dustin,Griffin,Male,1960-04-23,2022-10-10,2024-11-04,Terminated,HR,Engineer,131.0,San Francisco,dustin.griffin@example.com,25,False,Aimee Richards,Full-Time
+174,Rebecca,Hansen,Female,1971-12-03,2022-06-07,,Active,Marketing,Engineer,147.0,New York,rebecca.hansen@example.com,37,False,Tiffany Cortez,Full-Time
+175,Ashley,Graves,Non-binary,1962-12-03,2019-09-26,,Active,Marketing,HR Specialist,123.0,New York,ashley.graves@example.com,70,False,Michael Martinez,Full-Time
+176,John,Wallace,Female,1999-06-18,2023-06-15,,Active,Sales,Engineer,,San Francisco,john.wallace@example.com,25,True,,Full-Time
+177,Tiffany,Bailey,Non-binary,1962-07-02,2020-06-05,,Active,Engineering,Sales Associate,32.0,San Francisco,tiffany.bailey@example.com,62,False,Corey Hall,Full-Time
+178,Brandon,Miller,Female,1993-09-02,2019-10-23,,Active,HR,Sales Associate,133.0,San Francisco,brandon.miller@example.com,69,False,Brian Burns,Contractor
+179,Debra,Patterson,Female,1971-09-02,2023-05-13,,Active,HR,Engineer,,San Francisco,debra.patterson@example.com,26,True,,Full-Time
+180,Craig,Mcgrath,Non-binary,1972-09-08,2021-09-11,,Active,HR,Manager,87.0,New York,craig.mcgrath@example.com,46,False,Megan Hunter,Full-Time
+181,Tamara,Baldwin,Male,1984-10-19,2023-04-27,,Active,Marketing,Manager,167.0,Chicago,tamara.baldwin@example.com,26,False,Michele Clark,Contractor
+182,Danielle,Payne,Male,1963-03-10,2021-01-22,,Active,Marketing,Sales Associate,124.0,Chicago,danielle.payne@example.com,54,False,Kristi Cross,Full-Time
+183,Michael,Rich,Male,1997-07-02,2021-11-11,2025-06-03,Terminated,Sales,Engineer,119.0,Austin,michael.rich@example.com,43,False,Lisa Johnson,Contractor
+184,Jennifer,Mclaughlin,Male,1971-04-13,2019-10-16,,Active,Sales,Manager,103.0,Austin,jennifer.mclaughlin@example.com,69,False,Justin Salazar,Full-Time
+185,Justin,Anderson,Male,1999-10-02,2020-08-13,2024-03-25,Terminated,Sales,HR Specialist,25.0,Chicago,justin.anderson@example.com,44,False,William Mccarty,Full-Time
+186,Corey,Williams,Non-binary,1978-04-04,2023-05-26,,Active,Sales,Engineer,84.0,San Francisco,corey.williams@example.com,26,False,Emma Sims,Part-Time
+187,Laura,Phillips,Male,1975-12-04,2020-11-20,,Active,HR,HR Specialist,128.0,Chicago,laura.phillips@example.com,56,False,Mr. Corey Baker,Full-Time
+188,Justin,Richard,Female,1990-12-13,2019-03-17,,Active,Marketing,HR Specialist,,Austin,justin.richard@example.com,77,True,,Contractor
+189,Steven,Reed,Non-binary,1969-10-12,2018-01-17,,Active,Sales,HR Specialist,68.0,Austin,steven.reed@example.com,91,False,Kaitlyn Smith,Full-Time
+190,Justin,Phillips,Male,1964-07-30,2020-03-31,2022-06-07,Terminated,Marketing,HR Specialist,74.0,Austin,justin.phillips@example.com,26,False,Betty Freeman,Contractor
+191,Debra,Pearson,Male,1971-07-16,2021-10-25,,Active,Marketing,Sales Associate,,Austin,debra.pearson@example.com,45,True,,Contractor
+192,Haley,Robinson,Non-binary,1959-10-16,2023-04-07,,Active,Marketing,Manager,,New York,haley.robinson@example.com,27,True,,Full-Time
+193,Linda,Flores,Female,1997-02-03,2018-10-08,,Active,Engineering,Engineer,133.0,Austin,linda.flores@example.com,82,False,Christopher Martinez,Contractor
+194,David,Davies,Non-binary,1970-10-12,2019-10-15,2022-07-23,Terminated,Marketing,Sales Associate,130.0,Chicago,david.davies@example.com,33,False,Vicki Johnston,Full-Time
+195,Cheryl,Miranda,Female,1973-07-30,2020-01-25,,Active,Sales,Manager,,Chicago,cheryl.miranda@example.com,66,True,,Part-Time
+196,Cory,Lee,Non-binary,1968-05-30,2023-06-04,,Active,Engineering,Manager,149.0,Chicago,cory.lee@example.com,25,False,Jillian Valentine,Full-Time
+197,Erica,Martin,Male,1960-01-27,2020-12-09,,Active,Engineering,Manager,98.0,New York,erica.martin@example.com,55,False,Elizabeth Campbell,Full-Time
+198,Bryan,Franco,Non-binary,1983-08-19,2018-02-08,,Active,Engineering,HR Specialist,106.0,Chicago,bryan.franco@example.com,90,False,Brenda Wright,Contractor
+199,Matthew,Phillips,Female,1999-03-15,2022-01-29,2023-12-12,Terminated,Marketing,HR Specialist,144.0,Austin,matthew.phillips@example.com,22,False,Yolanda Manning,Full-Time
+200,Megan,Thomas,Non-binary,1981-02-04,2020-07-30,,Active,Sales,HR Specialist,91.0,San Francisco,megan.thomas@example.com,60,False,Kelly Hopkins,Full-Time

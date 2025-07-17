@@ -1,0 +1,598 @@
+name: si_hr_semantic_model
+tables:
+  - name: EMPLOYEES
+    base_table:
+      database: SI_HR_DEMO
+      schema: PUBLIC
+      table: EMPLOYEES
+    dimensions:
+      - name: FIRST_NAME
+        expr: FIRST_NAME
+        description: The first name of the employee.
+        synonyms:
+          - given_name
+          - first_name
+          - forename
+          - personal_name
+          - christian_name
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - David
+          - Daniel
+          - Victoria
+      - name: LAST_NAME
+        expr: LAST_NAME
+        description: The employee's last name.
+        synonyms:
+          - surname
+          - family_name
+          - last_name
+          - name
+          - full_name
+          - person_name
+          - personal_name
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Bryant
+          - Hogan
+          - Wolf
+      - name: GENDER
+        expr: GENDER
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Male
+          - Non-binary
+          - Female
+        description: The GENDER column captures the gender identity of each employee, categorizing them as Male, Non-binary, or Female.
+        synonyms:
+          - sex
+          - male_female
+          - demographic
+          - biological_sex
+          - personal_gender
+          - gender_identity
+      - name: EMPLOYMENT_STATUS
+        expr: EMPLOYMENT_STATUS
+        description: The current employment status of an employee, indicating whether they are currently working for the company (Active) or no longer employed (Terminated).
+        synonyms:
+          - job_status
+          - employment_type
+          - work_status
+          - employee_status
+          - occupational_status
+          - personnel_status
+          - staff_status
+          - active_status
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Terminated
+          - Active
+      - name: DEPARTMENT
+        expr: DEPARTMENT
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Sales
+          - HR
+          - Engineering
+        description: The department within the company where the employee is assigned to work.
+        synonyms:
+          - division
+          - section
+          - unit
+          - team
+          - group
+          - branch
+          - sector
+          - organization
+          - company
+          - agency
+      - name: JOB_TITLE
+        expr: JOB_TITLE
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Engineer
+          - HR Specialist
+          - Sales Associate
+        description: The JOB_TITLE column represents the specific role or position held by an employee within the organization, categorizing them into distinct occupational groups.
+        synonyms:
+          - position
+          - occupation
+          - role
+          - designation
+          - title
+          - profession
+          - job_description
+          - employment_title
+          - work_title
+          - occupational_title
+      - name: LOCATION
+        expr: LOCATION
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Austin
+          - New York
+          - Chicago
+        description: The city where the employee is based.
+        synonyms:
+          - site
+          - office
+          - workplace
+          - facility
+          - address
+          - premises
+          - venue
+          - geographical_location
+          - physical_location
+          - work_location
+          - business_location
+      - name: WORK_EMAIL
+        expr: WORK_EMAIL
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - david.bryant@example.com
+          - daniel.hogan@example.com
+          - phillip.wolf@example.com
+        description: The email address used by employees for work-related purposes.
+        synonyms:
+          - company_email
+          - business_email
+          - corporate_email
+          - official_email
+          - email_address
+          - work_address
+          - professional_email
+      - name: IS_MANAGER
+        expr: IS_MANAGER
+        data_type: BOOLEAN
+        sample_values:
+          - 'FALSE'
+          - 'TRUE'
+        description: Indicates whether the employee holds a management position within the organization.
+        synonyms:
+          - is_supervisor
+          - has_direct_reports
+          - management_role
+          - leadership_position
+          - supervisory_status
+      - name: MANAGER_NAME
+        expr: MANAGER_NAME
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Brian Spencer
+          - Ronald Douglas
+          - Alicia Kent
+        description: The name of the manager to whom the employee reports.
+        synonyms:
+          - supervisor_name
+          - team_lead_name
+          - reporting_manager
+          - boss_name
+          - leader_name
+          - director_name
+          - head_name
+      - name: EMPLOYEE_TYPE
+        expr: EMPLOYEE_TYPE
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Part-Time
+          - Full-Time
+          - Contractor
+        description: The type of employment arrangement for an employee, indicating whether they work on a part-time, full-time, or contract basis.
+        synonyms:
+          - employee_category
+          - job_category
+          - employment_type
+          - personnel_type
+          - staff_type
+          - worker_type
+          - role_type
+          - position_type
+      - name: EMPLOYEE_ID
+        expr: EMPLOYEE_ID
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '1'
+          - '2'
+          - '3'
+        description: Unique identifier for each employee in the organization.
+        synonyms:
+          - employee_number
+          - staff_id
+          - personnel_id
+          - worker_id
+          - employee_code
+          - staff_number
+          - personnel_number
+          - worker_code
+    time_dimensions:
+      - name: DATE_OF_BIRTH
+        expr: DATE_OF_BIRTH
+        data_type: DATE
+        sample_values:
+          - '1991-05-11'
+          - '1967-04-24'
+          - '1963-05-28'
+        description: Date of birth of an employee.
+        synonyms:
+          - birth_date
+          - dob
+          - date_of_birthdate
+          - birthday
+          - birthdate
+          - date_of_birth_date
+      - name: HIRE_DATE
+        expr: HIRE_DATE
+        data_type: DATE
+        sample_values:
+          - '2021-06-22'
+          - '2018-09-26'
+          - '2021-01-06'
+        description: Date when the employee started working for the company.
+        synonyms:
+          - start_date
+          - employment_date
+          - join_date
+          - date_of_joining
+          - date_hired
+          - employment_start_date
+          - hire_start_date
+          - commencement_date
+      - name: TERMINATION_DATE
+        expr: TERMINATION_DATE
+        data_type: DATE
+        sample_values:
+          - '2025-07-01'
+          - '2021-03-06'
+        description: Date on which the employee's employment with the company officially ended.
+        synonyms:
+          - end_date
+          - separation_date
+          - last_day
+          - exit_date
+          - date_of_separation
+          - end_of_employment_date
+          - layoff_date
+          - firing_date
+          - resignation_date
+    facts:
+      - name: MANAGER_ID
+        expr: MANAGER_ID
+        data_type: NUMBER(38,1)
+        sample_values:
+          - '67.0'
+          - '81.0'
+          - '90.0'
+        description: The unique identifier of the employee's manager.
+        synonyms:
+          - supervisor_id
+          - team_lead_id
+          - reporting_manager_id
+          - boss_id
+          - leader_id
+          - director_id
+      - name: TENURE_MONTHS
+        expr: TENURE_MONTHS
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '49'
+          - '82'
+          - '55'
+        description: The number of months an employee has been with the company.
+        synonyms:
+          - months_of_service
+          - length_of_service
+          - months_with_company
+          - employment_duration
+          - job_tenure
+          - months_of_employment
+          - service_length
+          - time_with_company
+    primary_key:
+      columns:
+        - EMPLOYEE_ID
+  - name: EMPLOYEE_LEAVE
+    base_table:
+      database: SI_HR_DEMO
+      schema: PUBLIC
+      table: EMPLOYEE_LEAVE
+    dimensions:
+      - name: LEAVE_TYPE
+        expr: LEAVE_TYPE
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Parental
+          - Unpaid
+          - Sick
+        description: The type of leave taken by an employee, such as parental leave, unpaid leave, or sick leave.
+        synonyms:
+          - leave_category
+          - leave_classification
+          - time_off_type
+          - absence_type
+          - vacation_type
+          - leave_code
+          - leave_reason
+          - leave_description
+      - name: EMPLOYEE_ID
+        expr: EMPLOYEE_ID
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '1'
+          - '2'
+          - '3'
+        description: Unique identifier for each employee in the organization.
+        synonyms:
+          - staff_id
+          - employee_number
+          - personnel_id
+          - worker_id
+          - staff_member_id
+          - employee_code
+    time_dimensions:
+      - name: LAST_LEAVE_DATE
+        expr: LAST_LEAVE_DATE
+        data_type: DATE
+        sample_values:
+          - '2025-02-17'
+          - '2025-02-24'
+          - '2024-10-29'
+        description: The date of the employee's most recent leave.
+        synonyms:
+          - most_recent_leave_date
+          - latest_leave_date
+          - last_leave_taken
+          - recent_leave_date
+          - last_leave_recorded
+          - latest_leave_record
+      - name: LEAVE_START_DATE
+        expr: LEAVE_START_DATE
+        data_type: DATE
+        sample_values:
+          - '2025-02-15'
+          - '2025-02-21'
+          - '2025-04-28'
+        description: The date on which an employee's leave period begins.
+        synonyms:
+          - start_of_leave
+          - leave_commencement_date
+          - date_leave_started
+          - leave_initiation_date
+          - beginning_of_leave_period
+      - name: LEAVE_END_DATE
+        expr: LEAVE_END_DATE
+        data_type: DATE
+        sample_values:
+          - '2025-02-17'
+          - '2025-02-24'
+          - '2024-10-29'
+        description: The date on which an employee's leave period ends.
+        synonyms:
+          - end_leave_date
+          - leave_completion_date
+          - leave_termination_date
+          - date_leave_ends
+          - leave_period_end_date
+          - end_of_leave_date
+    facts:
+      - name: LEAVE_BALANCE_DAYS
+        expr: LEAVE_BALANCE_DAYS
+        data_type: NUMBER(38,1)
+        sample_values:
+          - '6.7'
+          - '9.5'
+          - '26.9'
+        description: The total number of days of leave that an employee has available to take, including annual leave, sick leave, and other types of leave, as of the current date.
+        synonyms:
+          - available_leave_days
+          - leave_days_remaining
+          - outstanding_leave_balance
+          - leave_days_outstanding
+          - leave_balance
+          - remaining_leave_entitlement
+      - name: LEAVE_ACCRUAL_RATE
+        expr: LEAVE_ACCRUAL_RATE
+        data_type: NUMBER(38,2)
+        sample_values:
+          - '2.46'
+          - '1.52'
+          - '1.59'
+        description: The rate at which an employee's leave balance accrues per pay period, expressed as a decimal value representing the number of hours earned per hour worked.
+        synonyms:
+          - leave_earn_rate
+          - accrual_percentage
+          - leave_accumulation_rate
+          - annual_leave_rate
+          - leave_entitlement_rate
+      - name: LEAVE_TAKEN_DAYS
+        expr: LEAVE_TAKEN_DAYS
+        data_type: NUMBER(38,1)
+        sample_values:
+          - '2.0'
+          - '8.9'
+          - '9.3'
+        description: The total number of days an employee has taken leave, which may include vacation, sick leave, or other types of absences.
+        synonyms:
+          - days_off_taken
+          - leave_consumed
+          - used_leave_days
+          - leave_days_used
+          - days_absent
+          - leave_taken
+          - annual_leave_used
+  - name: EMPLOYEE_PERFORMANCE
+    base_table:
+      database: SI_HR_DEMO
+      schema: PUBLIC
+      table: EMPLOYEE_PERFORMANCE
+    dimensions:
+      - name: REVIEW_CYCLE
+        expr: REVIEW_CYCLE
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - 2023 Annual
+          - 2024 Mid-Year
+        description: The review cycle during which the employee's performance was evaluated, with options including annual reviews and mid-year reviews.
+        synonyms:
+          - performance_review_period
+          - evaluation_cycle
+          - assessment_period
+          - appraisal_cycle
+          - review_period
+          - evaluation_schedule
+      - name: PERFORMANCE_RATING
+        expr: PERFORMANCE_RATING
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Below Expectations
+          - Meets Expectations
+          - Exceeds Expectations
+        description: 'The PERFORMANCE_RATING column represents the employee''s performance evaluation, categorized into three levels: Below Expectations (indicating underperformance), Meets Expectations (indicating satisfactory performance), and Exceeds Expectations (indicating exceptional performance).'
+        synonyms:
+          - performance_score
+          - employee_grade
+          - job_performance
+          - evaluation_rating
+          - assessment_result
+          - rating_level
+          - performance_level
+          - evaluation_score
+      - name: MANAGER_FEEDBACK
+        expr: MANAGER_FEEDBACK
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Needs improvement.
+          - Exceeds Expectations performance. Keep up the good work!
+        description: This column captures the feedback provided by the manager regarding an employee's performance, indicating whether they need improvement or have exceeded expectations.
+        synonyms:
+          - supervisor_comments
+          - manager_comments
+          - performance_review_notes
+          - manager_evaluation
+          - feedback_from_manager
+          - supervisor_notes
+          - manager_assessment
+      - name: PEER_FEEDBACK
+        expr: PEER_FEEDBACK
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - View scientist any industry five former senior.
+          - Blood create result effect explain laugh.
+          - Red deal enter which goal option.
+        description: Feedback provided by colleagues or peers regarding an employee's performance, which can include comments, suggestions, and evaluations of their work and behavior.
+        synonyms:
+          - colleague_comments
+          - coworker_reviews
+          - peer_reviews
+          - team_member_feedback
+          - colleague_assessment
+          - peer_evaluation
+      - name: PROMOTED
+        expr: PROMOTED
+        data_type: BOOLEAN
+        sample_values:
+          - 'FALSE'
+          - 'TRUE'
+        description: Indicates whether the employee has been promoted or not.
+        synonyms:
+          - promoted_to_next_level
+          - moved_up
+          - career_advancement
+          - job_promotion
+          - elevated_position
+          - upgraded_role
+      - name: EMPLOYEE_ID
+        expr: EMPLOYEE_ID
+        data_type: NUMBER(38,0)
+        sample_values:
+          - '1'
+          - '2'
+          - '3'
+        description: Unique identifier for each employee in the organization.
+        synonyms:
+          - employee_number
+          - staff_id
+          - personnel_id
+          - worker_id
+          - associate_id
+          - team_member_id
+    time_dimensions:
+      - name: REVIEW_DATE
+        expr: REVIEW_DATE
+        data_type: DATE
+        sample_values:
+          - '2024-06-15'
+          - '2024-01-30'
+          - '2024-04-16'
+        description: The date on which the employee's performance was reviewed.
+        synonyms:
+          - evaluation_date
+          - assessment_date
+          - performance_review_date
+          - appraisal_date
+          - feedback_date
+    facts:
+      - name: GOALS_MET_PERCENTAGE
+        expr: GOALS_MET_PERCENTAGE
+        data_type: NUMBER(38,1)
+        sample_values:
+          - '98.8'
+          - '88.0'
+          - '83.7'
+        description: The percentage of goals met by an employee, indicating their level of achievement in meeting their performance targets.
+        synonyms:
+          - percentage_of_goals_met
+          - goal_completion_rate
+          - objectives_met_percentage
+          - target_achievement_rate
+          - performance_goal_attainment
+      - name: BONUS_AWARDED
+        expr: BONUS_AWARDED
+        data_type: NUMBER(38,2)
+        sample_values:
+          - '1422.50'
+          - '4498.24'
+          - '1390.36'
+        description: The total amount of bonus awarded to an employee for their performance.
+        synonyms:
+          - bonus_given
+          - incentive_paid
+          - reward_amount
+          - performance_bonus
+          - monetary_award
+          - extra_compensation
+relationships:
+  - name: employee_performance_to_employees
+    join_type: inner
+    relationship_type: many_to_one
+    left_table: EMPLOYEE_PERFORMANCE
+    relationship_columns:
+      - left_column: EMPLOYEE_ID
+        right_column: EMPLOYEE_ID
+    right_table: EMPLOYEES
+  - name: employee_leave_to_employees
+    join_type: inner
+    relationship_type: many_to_one
+    left_table: EMPLOYEE_LEAVE
+    relationship_columns:
+      - left_column: EMPLOYEE_ID
+        right_column: EMPLOYEE_ID
+    right_table: EMPLOYEES
+verified_queries:
+  - name: count_employees_on_leave
+    question: how many employees are out on leave?
+    use_as_onboarding_question: false
+    sql: SELECT COUNT(DISTINCT employee_id) AS employees_on_leave FROM employee_leave WHERE CURRENT_DATE BETWEEN leave_start_date AND leave_end_date
+    verified_by: Allison Godfrey
+    verified_at: 1752530648
+  - name: avg_pto_2025
+    question: what is the average number of days of PTO employees took in 2025?
+    use_as_onboarding_question: false
+    sql: SELECT AVG(leave_taken_days) AS avg_leave_days_pto FROM employee_leave WHERE leave_type = 'PTO' AND DATE_PART('YEAR', leave_start_date) = 2025
+    verified_by: Allison Godfrey
+    verified_at: 1752531112
+  - name: avg_days_by_leave_type
+    question: what is the average number of days of leave by leave type for 2025?
+    use_as_onboarding_question: false
+    sql: SELECT leave_type, AVG(leave_taken_days) AS avg_leave_days FROM employee_leave WHERE DATE_PART('YEAR', leave_start_date) = 2025 GROUP BY leave_type ORDER BY avg_leave_days DESC NULLS LAST
+    verified_by: Allison Godfrey
+    verified_at: 1752531091
